@@ -5,7 +5,7 @@ import glob
 import pandas as pd
 import random
 
-os.chdir("C:\\Users\\Semih\\Desktop\\New folder")
+os.chdir("C:\Users\Desktop\New folder")
 
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
